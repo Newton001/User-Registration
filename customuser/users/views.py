@@ -8,7 +8,7 @@ send_mail(
     recipient_list = ['email',]
     auth_user = 'Login'
     auth_password = 'Password'
-    fail_silently = False,
+    fail_silently = True,
 )
 
 
